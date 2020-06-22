@@ -2,8 +2,6 @@ BIN = option
 TEST_BIN = test
 TEST_DIR = .test
 PC = ponyc
-REGISTRY ?= quay.io/cvik/mqttd
-IMAGE = $(REGISTRY)/$(BIN)
 VERSION = v0.1.0
 
 all:
